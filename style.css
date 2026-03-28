@@ -1,0 +1,47 @@
+body {
+background-color: #1a1a1a;
+color: white;
+font-family: Arial, sans-serif;
+}
+
+#triage-form {
+max-width: 400px;
+border: 2px solid #444;
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 20px;
+background-color: #2d2d2d;
+}
+
+select , input {
+width: 100%;
+padding: 10px;
+margin: bottom 16px;
+border-radius: 4px;
+border: 1px solid #555;
+}
+
+#dispatch-btn {
+background-color: #d9534f;
+color: white;
+border: none;
+padding: 12px; ;
+font-weight:bold ;
+cursor:pointer;
+}
+
+#dispatch-btn:hover {
+    filter: brightness(1.2);
+}
+
+#addtoqueue-btn {
+    background-color:#d9534f;
+    color : white;
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#addtoqueue-btn:hover {
+    filter: brightness(1.2);
+}

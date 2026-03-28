@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Dispatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="live-clock">00:00:00</div>
+
+    <h1>Emergency Triage Portal</h1>
+
+    <div id="triage-form">
+    <hr>
+        <label>Patient Status:</label>
+        <select id="status">
+            <option value="P2">Chest Pain - Stable (P2)</option>
+            <option value="P1">Unconscious - Unknown (P1)
+            </option>
+        </select>
+
+        <br><br>
+
+        <label>Location:</label>
+        <input type="text" id="location" placeholder="Enter Location">
+
+        <br><br>
+
+        <button id="dispatch-btn">Dispatch Resource</button>
+        </div>
+        <div id="triage-input">
+        <label for="patient-name">Patient Name</label>
+        <input type="text" id="patient-name" placeholder="Enter name...">
+
+        <label for="priority-level">Priority:</label>
+        <select id="priority-level">
+        <option value="P1">Resuscitation (P1)</option>
+        <option value="P2">Chest Pain - Stable (P2)</option>
+        <option value="P3">Urgent (P3)</option>
+    </select>
+
+   <button id="addtoqueue-btn">Add to Queue</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+        <h2>Active Incident Queue</h2>
+        <ul id="incident-list"></ul>
+
+      <script src="script.js"></script>
+      <script></script>
+
+
+
+</body>
+</html>
